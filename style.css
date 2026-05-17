@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    border-radius: 38px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+#left{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(252, 200, 13);
+    padding: 25px 0px 0px 35px;
+    
+}
+
+.logo{
+    width:150px;
+}
+
+.tx{
+    margin-top: 90px;
+    margin-left: 20px;
+    
+}
+
+.header{
+    letter-spacing: 8px;
+    font-size: 18px;
+    font-weight: 45px;
+    margin-bottom: 15px;
+}
+
+.mid{
+    font-size: 110px;
+    margin-bottom: 10px;
+}
+
+.para{
+    font-size:17px;
+    line-height:30px;
+    color:#222;
+}
+
+.linee{
+    font-size: 35px;
+}
+
+.date{
+    font-size: 18px;
+}
+
+#right{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(250, 231, 180);
+    font-size: xx-large;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+
+i{
+    padding: 30px 30px 0px 0px;
+}
+
+#dots{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.cir{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: rgb(252, 200, 13);
+    margin: 15px 0;
+}
+
+.cir:nth-child(1){
+    background-color: black;
+}
+
+.pikachu{
+    position: absolute;
+    z-index: 99;
+    width:450px;
+    top:60px;
+    left:50%;
+    transform:translateX(-10%);
+}
+
